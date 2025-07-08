@@ -12,6 +12,6 @@ CASE
                     ELSE '28'
                 END
         END
-    THEN TO_VARCHAR(PostingDate))
+    THEN TO_VARCHAR(PostingDate)
     ELSE TO_VARCHAR('19700101')
 END 	
